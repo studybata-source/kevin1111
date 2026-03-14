@@ -11,13 +11,12 @@ Kevin 11 Music Bot is a Telegram music bot focused on one clean job:
 - `/start`, `/help`, `/settings`, `/search`, `/song`, `/download`, `/lyrics`, `/history`, `/cancel`
 - direct song-name downloads in private chat
 - group-friendly flow with `/song`, mentions, and replies to the bot
-- add-to-group shortcuts with default admin rights requests for smoother setup
 - search result buttons
 - `yt-dlp` download engine with Telegram `file_id` cache
 - cached metadata lookups and shared in-flight source resolution for faster repeated requests
 - shared search/callback session storage via the database for multi-worker deployments
 - parallel metadata lookup with iTunes + Deezer
-- per-user format selection: `MP3`, `M4A`, `Opus`, `Original`
+- MP3 delivery with per-user quality settings
 - LRCLIB lyrics lookup
 - PostgreSQL-ready storage for users, quality settings, formats, cache, history, and chat tracking
 - optional webhook mode with Redis-backed FSM storage for production traffic
